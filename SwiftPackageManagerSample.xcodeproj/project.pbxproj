@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,47 @@
 		887022F6233907C000147B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887022F4233907C000147B9D /* Main.storyboard */; };
 		887022F8233907C100147B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887022F7233907C100147B9D /* Assets.xcassets */; };
 		887022FB233907C100147B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887022F9233907C100147B9D /* LaunchScreen.storyboard */; };
+		8870230423390BE800147B9D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8870230323390BE800147B9D /* Alamofire */; };
+		88702307233911AD00147B9D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 88702306233911AD00147B9D /* Realm */; };
+		88702309233911AD00147B9D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 88702308233911AD00147B9D /* RealmSwift */; };
+		8870230C233911D700147B9D /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = 8870230B233911D700147B9D /* SwiftyUserDefaults */; };
+		8870230F2339122000147B9D /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 8870230E2339122000147B9D /* Charts */; };
+		887023102339122000147B9D /* Charts in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 8870230E2339122000147B9D /* Charts */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		887023142339128000147B9D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 887023132339128000147B9D /* SwiftyJSON */; };
+		887023172339130E00147B9D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 887023162339130E00147B9D /* Lottie */; };
+		8870231A233914BE00147B9D /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88702319233914BE00147B9D /* SwiftyStoreKit */; };
+		8870231D2339157000147B9D /* IBAnimatable in Frameworks */ = {isa = PBXBuildFile; productRef = 8870231C2339157000147B9D /* IBAnimatable */; };
+		888DF5ED233916A2009537C9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5EC233916A2009537C9 /* RxSwift */; };
+		888DF5EF233916A2009537C9 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5EE233916A2009537C9 /* RxTest */; };
+		888DF5F1233916A2009537C9 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5F0233916A2009537C9 /* RxRelay */; };
+		888DF5F3233916A2009537C9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5F2233916A2009537C9 /* RxCocoa */; };
+		888DF5F5233916A2009537C9 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5F4233916A2009537C9 /* RxBlocking */; };
+		888DF5F823391798009537C9 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5F723391798009537C9 /* SwiftDate */; };
+		888DF5FB233918F0009537C9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5FA233918F0009537C9 /* IQKeyboardManagerSwift */; };
+		888DF5FE23391D53009537C9 /* Material in Frameworks */ = {isa = PBXBuildFile; productRef = 888DF5FD23391D53009537C9 /* Material */; };
+		88E1ED0B23391EFA00D0FFEE /* ActiveLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED0A23391EFA00D0FFEE /* ActiveLabel */; };
+		88E1ED0E23391FE100D0FFEE /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED0D23391FE100D0FFEE /* SideMenu */; };
+		88E1ED112339235F00D0FFEE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED102339235F00D0FFEE /* Kingfisher */; };
+		88E1ED142339248E00D0FFEE /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED132339248E00D0FFEE /* SkeletonView */; };
+		88E1ED17233924D000D0FFEE /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED16233924D000D0FFEE /* AlamofireImage */; };
+		88E1ED1A2339250400D0FFEE /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED192339250400D0FFEE /* Nuke */; };
+		88E1ED1D2339256A00D0FFEE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED1C2339256A00D0FFEE /* SDWebImage */; };
+		88E1ED1F2339256A00D0FFEE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88E1ED1E2339256A00D0FFEE /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		887023112339122000147B9D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				887023102339122000147B9D /* Charts in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		887022EB233907C000147B9D /* SwiftPackageManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPackageManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +71,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8870231D2339157000147B9D /* IBAnimatable in Frameworks */,
+				88E1ED142339248E00D0FFEE /* SkeletonView in Frameworks */,
+				887023142339128000147B9D /* SwiftyJSON in Frameworks */,
+				888DF5F823391798009537C9 /* SwiftDate in Frameworks */,
+				888DF5ED233916A2009537C9 /* RxSwift in Frameworks */,
+				88E1ED112339235F00D0FFEE /* Kingfisher in Frameworks */,
+				888DF5F3233916A2009537C9 /* RxCocoa in Frameworks */,
+				8870231A233914BE00147B9D /* SwiftyStoreKit in Frameworks */,
+				888DF5FE23391D53009537C9 /* Material in Frameworks */,
+				88E1ED0B23391EFA00D0FFEE /* ActiveLabel in Frameworks */,
+				887023172339130E00147B9D /* Lottie in Frameworks */,
+				8870230F2339122000147B9D /* Charts in Frameworks */,
+				888DF5F1233916A2009537C9 /* RxRelay in Frameworks */,
+				888DF5FB233918F0009537C9 /* IQKeyboardManagerSwift in Frameworks */,
+				888DF5EF233916A2009537C9 /* RxTest in Frameworks */,
+				88702309233911AD00147B9D /* RealmSwift in Frameworks */,
+				88E1ED0E23391FE100D0FFEE /* SideMenu in Frameworks */,
+				88E1ED17233924D000D0FFEE /* AlamofireImage in Frameworks */,
+				88E1ED1D2339256A00D0FFEE /* SDWebImage in Frameworks */,
+				88E1ED1A2339250400D0FFEE /* Nuke in Frameworks */,
+				88702307233911AD00147B9D /* Realm in Frameworks */,
+				88E1ED1F2339256A00D0FFEE /* SDWebImageMapKit in Frameworks */,
+				8870230423390BE800147B9D /* Alamofire in Frameworks */,
+				8870230C233911D700147B9D /* SwiftyUserDefaults in Frameworks */,
+				888DF5F5233916A2009537C9 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +142,40 @@
 				887022E7233907C000147B9D /* Sources */,
 				887022E8233907C000147B9D /* Frameworks */,
 				887022E9233907C000147B9D /* Resources */,
+				887023112339122000147B9D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftPackageManagerSample;
+			packageProductDependencies = (
+				8870230323390BE800147B9D /* Alamofire */,
+				88702306233911AD00147B9D /* Realm */,
+				88702308233911AD00147B9D /* RealmSwift */,
+				8870230B233911D700147B9D /* SwiftyUserDefaults */,
+				8870230E2339122000147B9D /* Charts */,
+				887023132339128000147B9D /* SwiftyJSON */,
+				887023162339130E00147B9D /* Lottie */,
+				88702319233914BE00147B9D /* SwiftyStoreKit */,
+				8870231C2339157000147B9D /* IBAnimatable */,
+				888DF5EC233916A2009537C9 /* RxSwift */,
+				888DF5EE233916A2009537C9 /* RxTest */,
+				888DF5F0233916A2009537C9 /* RxRelay */,
+				888DF5F2233916A2009537C9 /* RxCocoa */,
+				888DF5F4233916A2009537C9 /* RxBlocking */,
+				888DF5F723391798009537C9 /* SwiftDate */,
+				888DF5FA233918F0009537C9 /* IQKeyboardManagerSwift */,
+				888DF5FD23391D53009537C9 /* Material */,
+				88E1ED0A23391EFA00D0FFEE /* ActiveLabel */,
+				88E1ED0D23391FE100D0FFEE /* SideMenu */,
+				88E1ED102339235F00D0FFEE /* Kingfisher */,
+				88E1ED132339248E00D0FFEE /* SkeletonView */,
+				88E1ED16233924D000D0FFEE /* AlamofireImage */,
+				88E1ED192339250400D0FFEE /* Nuke */,
+				88E1ED1C2339256A00D0FFEE /* SDWebImage */,
+				88E1ED1E2339256A00D0FFEE /* SDWebImageMapKit */,
+			);
 			productName = SwiftPackageManagerSample;
 			productReference = 887022EB233907C000147B9D /* SwiftPackageManagerSample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,27 @@
 				Base,
 			);
 			mainGroup = 887022E2233907C000147B9D;
+			packageReferences = (
+				8870230223390BE800147B9D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				88702305233911AD00147B9D /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				8870230A233911D700147B9D /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+				8870230D2339122000147B9D /* XCRemoteSwiftPackageReference "Charts" */,
+				887023122339128000147B9D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				887023152339130E00147B9D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				88702318233914BE00147B9D /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+				8870231B2339157000147B9D /* XCRemoteSwiftPackageReference "IBAnimatable" */,
+				888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				888DF5F623391798009537C9 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				888DF5F9233918EF009537C9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				888DF5FC23391D53009537C9 /* XCRemoteSwiftPackageReference "Material" */,
+				88E1ED0923391EFA00D0FFEE /* XCRemoteSwiftPackageReference "ActiveLabel" */,
+				88E1ED0C23391FE000D0FFEE /* XCRemoteSwiftPackageReference "SideMenu" */,
+				88E1ED0F2339235F00D0FFEE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				88E1ED122339248E00D0FFEE /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				88E1ED15233924D000D0FFEE /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				88E1ED182339250400D0FFEE /* XCRemoteSwiftPackageReference "Nuke" */,
+				88E1ED1B2339256A00D0FFEE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 887022EC233907C000147B9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +452,289 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8870230223390BE800147B9D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.0;
+			};
+		};
+		88702305233911AD00147B9D /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.18.0;
+			};
+		};
+		8870230A233911D700147B9D /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunshinejr/SwiftyUserDefaults";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		8870230D2339122000147B9D /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+		887023122339128000147B9D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		887023152339130E00147B9D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		88702318233914BE00147B9D /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.0;
+			};
+		};
+		8870231B2339157000147B9D /* XCRemoteSwiftPackageReference "IBAnimatable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBAnimatable/IBAnimatable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		888DF5F623391798009537C9 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+		888DF5F9233918EF009537C9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.4.2;
+			};
+		};
+		888DF5FC23391D53009537C9 /* XCRemoteSwiftPackageReference "Material" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CosmicMind/Material";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
+		88E1ED0923391EFA00D0FFEE /* XCRemoteSwiftPackageReference "ActiveLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/optonaut/ActiveLabel.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		88E1ED0C23391FE000D0FFEE /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+		88E1ED0F2339235F00D0FFEE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		88E1ED122339248E00D0FFEE /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+		88E1ED15233924D000D0FFEE /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.2;
+			};
+		};
+		88E1ED182339250400D0FFEE /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		88E1ED1B2339256A00D0FFEE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8870230323390BE800147B9D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8870230223390BE800147B9D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		88702306233911AD00147B9D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88702305233911AD00147B9D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		88702308233911AD00147B9D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88702305233911AD00147B9D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		8870230B233911D700147B9D /* SwiftyUserDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8870230A233911D700147B9D /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
+			productName = SwiftyUserDefaults;
+		};
+		8870230E2339122000147B9D /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8870230D2339122000147B9D /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		887023132339128000147B9D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 887023122339128000147B9D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		887023162339130E00147B9D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 887023152339130E00147B9D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		88702319233914BE00147B9D /* SwiftyStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88702318233914BE00147B9D /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			productName = SwiftyStoreKit;
+		};
+		8870231C2339157000147B9D /* IBAnimatable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8870231B2339157000147B9D /* XCRemoteSwiftPackageReference "IBAnimatable" */;
+			productName = IBAnimatable;
+		};
+		888DF5EC233916A2009537C9 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		888DF5EE233916A2009537C9 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		888DF5F0233916A2009537C9 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		888DF5F2233916A2009537C9 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		888DF5F4233916A2009537C9 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5EB233916A2009537C9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		888DF5F723391798009537C9 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5F623391798009537C9 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		888DF5FA233918F0009537C9 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5F9233918EF009537C9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		888DF5FD23391D53009537C9 /* Material */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888DF5FC23391D53009537C9 /* XCRemoteSwiftPackageReference "Material" */;
+			productName = Material;
+		};
+		88E1ED0A23391EFA00D0FFEE /* ActiveLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED0923391EFA00D0FFEE /* XCRemoteSwiftPackageReference "ActiveLabel" */;
+			productName = ActiveLabel;
+		};
+		88E1ED0D23391FE100D0FFEE /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED0C23391FE000D0FFEE /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		88E1ED102339235F00D0FFEE /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED0F2339235F00D0FFEE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		88E1ED132339248E00D0FFEE /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED122339248E00D0FFEE /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		88E1ED16233924D000D0FFEE /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED15233924D000D0FFEE /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		88E1ED192339250400D0FFEE /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED182339250400D0FFEE /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		88E1ED1C2339256A00D0FFEE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED1B2339256A00D0FFEE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		88E1ED1E2339256A00D0FFEE /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88E1ED1B2339256A00D0FFEE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 887022E3233907C000147B9D /* Project object */;
 }
